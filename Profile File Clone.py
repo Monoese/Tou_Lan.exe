@@ -1,8 +1,8 @@
 import os
 import shutil
 import sys
-#C:/Users/!!Username!!/AppData/Local/CCP/EVE/c_eve_sharedcache_tq_tranquility/settings_Default/Backup
-user_confirmation = input("This script will clone the original pair of user&character profile files and replace other characters' profile with them.\nMake sure that you are using default profile folder name \'Default\' as you profile name. Only profile files under \'Default\' folder will be edited\nAlso, please create a subfolder, named \'Backup\' under the following dir, and put the user&character profile files to be duplicated. Remember to change the username to your windows username\nC:/Users/!!Username!!/AppData/Local/CCP/EVE/c_eve_sharedcache_tq_tranquility/settings_Default/Backup\n Reply \'y\' to continue: ")
+#C:/Users/Rya/AppData/Local/CCP/EVE/c_eve_sharedcache_tq_tranquility/settings_Default/Backup
+user_confirmation = input("This script will clone the original pair of user&character profile files and replace other users'&characters' profile with them.\nMake sure that you are using default profile folder named \'Default\' as you profile folder name. Only profile files under \'Default\' folder will be edited\nReply \'y\' to continue: ")
 
 if user_confirmation != "y":
     print("please check the correctness of your folder dir and profile files before continuing")
