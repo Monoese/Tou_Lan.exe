@@ -1,7 +1,7 @@
 import os
 import shutil
 import sys
-#C:/Users/Rya/AppData/Local/CCP/EVE/c_eve_sharedcache_tq_tranquility/settings_Default/Backup
+#C:/Users/!!Username!!/AppData/Local/CCP/EVE/c_eve_sharedcache_tq_tranquility/settings_Default/Backup
 user_confirmation = input("This script will clone the original pair of user&character profile files and replace other users'&characters' profile with them.\nMake sure that you are using default profile folder named \'Default\' as you profile folder name. Only profile files under \'Default\' folder will be edited\nReply \'y\' to continue: ")
 
 if user_confirmation != "y":
